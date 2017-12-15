@@ -1,4 +1,11 @@
 node_modules
 .DS_Store
 notes.txt
+venv
+output
+srv.pid
 ._.DS_Store
+*~
+__pycache__
+pelican.pid
+publishconf.py
