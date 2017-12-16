@@ -1,12 +1,12 @@
 <ul class="nav nav-list">
 {% if LINKS %}
-<li class="nav-header"><h4><i class="icon-external-link"></i>blogroll</h4></li>
+<li class="nav-header"><h4><i class="icon-external-link"></i>معرفی</h4></li>
 {% for name, link in LINKS %}
     <li><a href="{{ link }}"><i class="icon-external-link"></i>{{ name }}</a></li>
 {% endfor %}
 {% endif %}
 {% if SOCIAL %}
-<li class="nav-header"><h4><i class="icon-home icon-large"></i> social</h4></li>
+<li class="nav-header"><h4><i class="icon-home icon-large"></i>لینک ها</h4></li>
 {% if FEED_ALL_ATOM %}
 <li><a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate"><i class="icon-bookmark icon-large"></i>atom feed</a></li>
 {% endif %}
@@ -18,23 +18,34 @@
 {% endfor %}
 {% endif %}
 
-<li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>Categories</h4></li>
+<li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>فصل ها</h4></li>
+{% for article in (articles_page.object_list if articles_page else articles) %}
+
+<li>
+<a href="{{ SITEURL }}/{{ article.url }}">
+    <i class="icon-folder-open icon-large"></i>{{ article.title }}
+</a>
+</li>
+{% endfor %}>
+
+
+<!--li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>کتگوری ها</h4></li>
 {% for cat, null in categories %}
 <li>
 <a href="{{ SITEURL }}/{{ cat.url }}">
     <i class="icon-folder-open icon-large"></i>{{ cat }}
 </a>
 </li>
-{% endfor %}
+{% endfor %}-->
 
-<li class="nav-header"><h4><i class="icon-tags icon-large"></i>Tags</h4></li>
+<!--li class="nav-header"><h4><i class="icon-tags icon-large"></i>Tags</h4></li>
 {% for tag in tag_cloud %}
 <li class="tag-{{ tag.1 }}">
     <a href="{{ SITEURL }}/{{ tag.0.url }}">
         <i class="icon-tag icon-large"></i>{{ tag.0 }}
     </a>
 </li>
-{% endfor %}
+{% endfor %}-->
 
 {% include 'twitter_profile.html' %}
 {% include 'search_sidebar.html' %}

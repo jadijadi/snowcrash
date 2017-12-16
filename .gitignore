@@ -8,4 +8,5 @@ srv.pid
 *~
 __pycache__
 pelican.pid
+.vscode
 publishconf.py
