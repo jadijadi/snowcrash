@@ -1,6 +1,10 @@
+@import url(//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
 body {
 	padding-top: 60px;
 	padding-bottom: 40px;
+	font-family: 'Droid Arabic Naskh', sans-serif !important;
+	
 }
 .sidebar-nav {
 	padding: 9px 0;

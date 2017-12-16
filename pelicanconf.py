@@ -19,8 +19,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-#TWITTER_USERNAME = "jadi"
-
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
@@ -36,3 +34,6 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 THEME = 'theme/bookstrap'
+
+DISPLAY_CATEGORIES_ON_MENU = False
+#TWITTER_USERNAME = "jadi"
