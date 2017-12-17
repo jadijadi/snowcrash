@@ -3,7 +3,7 @@
 ul {
 	margin-right: 28pt;
 	font-family: "Droid Arabic Naskh";
-	font-size: 13pt;
+	font-size: 1.1em;
 	line-height: normal;
 }
 
@@ -21,24 +21,34 @@ body {
 	padding: 9px 0;
 }
 .tag-1 {
-	font-size: 13pt;
+	font-size: 1.2em;
 }
 .tag-2 {
-	font-size: 10pt;
+	font-size: 10p1emt;
 }
 .tag-2 {
-	font-size: 8pt;
+	font-size: 0.9em;
 }
 .tag-4 {
-	font-size: 6pt;
+	font-size: 0.8em;
 }
 
 p {
 	font-family: "Droid Arabic Naskh";
-	font-size: 14pt;
+	font-size: 1.2em;
 	line-height: normal;
 }
 
 .container-fluid {
 	direction: rtl;
+}
+
+pre {
+	font-size: 1.4em;
+}
+
+address {
+	text-align: center;
+	line-height: 14px;
+	margin-bottom: 6px;
 }
