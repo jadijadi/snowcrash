@@ -9,4 +9,5 @@ srv.pid
 __pycache__
 pelican.pid
 .vscode
+*swp
 publishconf.py
