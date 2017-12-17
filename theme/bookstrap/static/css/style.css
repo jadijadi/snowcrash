@@ -1,4 +1,15 @@
-@import url(//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+/*@import url(//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+*/
+ul {
+	margin-right: 28pt;
+	font-family: "Droid Arabic Naskh";
+	font-size: 13pt;
+	line-height: normal;
+}
+
+h1 {
+	margin-bottom: 32pt;
+}
 
 body {
 	padding-top: 60px;
@@ -20,4 +31,14 @@ body {
 }
 .tag-4 {
 	font-size: 6pt;
+}
+
+p {
+	font-family: "Droid Arabic Naskh";
+	font-size: 14pt;
+	line-height: normal;
+}
+
+.container-fluid {
+	direction: rtl;
 }
