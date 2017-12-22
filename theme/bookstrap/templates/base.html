@@ -47,25 +47,11 @@
           <a class="brand" href="{{ SITEURL }}/index.html">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
           <div class="nav-collapse">
             <ul class="nav">
-              {% for title, link in MENUITEMS %}
-                  <li><a href="{{ link }}">{{ title }}</a></li>
-              {% endfor %}
-              {% if DISPLAY_PAGES_ON_MENU %}
-              {% for page in pages %}
-                <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-              {% endfor %}
-                          <li class="divider-vertical"></li>
-              {% endif %}
-              {% if DISPLAY_CATEGORIES_ON_MENU %}
-              {% for cat, null in categories %}
-                  <li {% if cat == category %}class="active"{% endif %}>
-                    <a href="{{ SITEURL }}/{{ cat.url }}">
-						<i class="icon-folder-open icon-large"></i>{{ cat }}
-					</a>
-                  </li>
-              {% endfor %}
-              {% endif %}
-
+                <li><a href="{{ SITEURL }}/pages/about">درباره</a></li>
+                <li><a href="{{ SITEURL }}/pages/downloads">دانلود</a></li>                
+                <li><a href="{{ SITEURL }}/pages/discuss">گفتگو</a></li>
+                <li><a href="{{ SITEURL }}/pages/support">حمایت</a></li>
+                
                           <!--ul class="nav pull-right">
                                 <li><a href="{{ SITEURL }}/archives.html"><i class="icon-th-list"></i>Archives</a></li>
                           </ul-->
