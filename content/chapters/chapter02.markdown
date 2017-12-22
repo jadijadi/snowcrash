@@ -1,4 +1,4 @@
-title: فصل دوم
+title: فصل دو
 slug: chapter-02
 date: 2017-06-09
 

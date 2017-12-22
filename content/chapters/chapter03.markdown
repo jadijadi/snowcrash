@@ -1,4 +1,4 @@
-title: فصل سوم
+title: فصل سه
 slug: chapter-03
 date: 2017-06-09
 

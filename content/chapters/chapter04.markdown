@@ -1,4 +1,4 @@
-title: فصل چهارم
+title: فصل چهار
 slug: chapter-04
 date: 2017-06-09
 

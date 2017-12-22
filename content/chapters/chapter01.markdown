@@ -1,4 +1,4 @@
-title: فصل اول
+title: فصل یک
 slug: chapter-01
 date: 2017-06-09
 

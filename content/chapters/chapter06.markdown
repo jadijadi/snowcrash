@@ -1,4 +1,4 @@
-title: فصل ششم
+title: فصل شش
 slug: chapter-06
 date: 2017-06-09
 
