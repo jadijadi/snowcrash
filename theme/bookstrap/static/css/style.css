@@ -1,8 +1,15 @@
 /*@import url(//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 */
+@import url("https://cdn.rawgit.com/rastikerdar/vazir-font/v[X.Y.Z]/dist/font-face.css");
+.body{
+	padding: 10px;
+	border-right: 3px solid #999999;
+	border-right: 3px solid #999999;
+	background-color: #fbfbfb;
+}
 ul {
-	margin-right: 28pt;
-	font-family: "Droid Arabic Naskh";
+	margin-left: 28pt;
+	font-family: "Vazir";
 	font-size: 1.1em;
 	line-height: normal;
 }
@@ -14,7 +21,7 @@ h1 {
 body {
 	padding-top: 60px;
 	padding-bottom: 40px;
-	font-family: 'Droid Arabic Naskh', sans-serif !important;
+	font-family: "Vazir", sans-serif !important;
 	
 }
 .sidebar-nav {
@@ -34,9 +41,10 @@ body {
 }
 
 p {
-	font-family: "Droid Arabic Naskh";
+	font-family: "Vazir";
 	font-size: 1.2em;
 	line-height: normal;
+	text-align: justify;
 }
 
 .container-fluid {
@@ -51,4 +59,30 @@ address {
 	text-align: center;
 	line-height: 14px;
 	margin-bottom: 6px;
+}
+
+#sidebar ul.nav li{
+	margin-right:20px
+}
+#sidebar ul.nav .nav-header{
+	margin-right:0px;
+	padding-right:0
+}
+.well{
+	min-height: 20px;
+	padding: 15px 0 15px 15px;
+	margin-bottom: 20px;
+	background-color: #fbfbfb;
+	border:none;
+	border-right: 3px solid #999999;
+	border-right: 3px solid #999999;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.navbar .brand , .nav .nav-collapse{
+	float:right
 }
