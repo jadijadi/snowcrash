@@ -11,3 +11,4 @@ pelican.pid
 .vscode
 *swp
 publishconf.py
+.idea
