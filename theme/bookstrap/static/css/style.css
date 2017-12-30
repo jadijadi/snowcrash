@@ -1,8 +1,16 @@
 /*@import url(//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 */
+@font-face {
+	font-family: 'Sahel';
+	src: url('../font/Sahel.eot');
+	src: url('../font/Sahel.eot?#iefix') format('embedded-opentype'), url('../font/Sahel.woff') format('woff'), url('../font/Sahel.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 ul {
 	margin-right: 28pt;
-	font-family: "Droid Arabic Naskh";
+	font-family: 'Sahel', "Droid Arabic Naskh";
 	font-size: 1.1em;
 	line-height: normal;
 }
@@ -14,7 +22,7 @@ h1 {
 body {
 	padding-top: 60px;
 	padding-bottom: 40px;
-	font-family: 'Droid Arabic Naskh', sans-serif !important;
+	font-family: 'Sahel', 'Droid Arabic Naskh', sans-serif !important;
 	
 }
 .sidebar-nav {
@@ -34,7 +42,7 @@ body {
 }
 
 p {
-	font-family: "Droid Arabic Naskh";
+	font-family: 'Sahel', "Droid Arabic Naskh";
 	font-size: 1.2em;
 	line-height: normal;
 }
