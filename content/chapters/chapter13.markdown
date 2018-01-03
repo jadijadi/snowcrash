@@ -1,4 +1,4 @@
-title: فصل سیزدهم
+title: فصل سیزده
 slug: chapter-13
 date: 2017-06-09
 

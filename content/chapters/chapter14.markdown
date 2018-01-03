@@ -1,4 +1,4 @@
-title: فصل چهاردهم
+title: فصل چهارده
 slug: chapter-14
 date: 2017-06-09
 
