@@ -1,4 +1,5 @@
 node_modules
+*pyc
 .DS_Store
 notes.txt
 venv
