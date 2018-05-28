@@ -13,7 +13,7 @@
     
 
 <li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>فصل ها</h4></li>
-{% for article in articles %} 
+{% for article in articles %}
 {% if article.category == 'chapters' %}
 <li>
 <a href="{{ SITEURL }}/{{ article.url }}">
