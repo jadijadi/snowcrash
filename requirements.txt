@@ -1,0 +1,14 @@
+blinker==1.4
+docutils==0.14
+feedgenerator==1.9
+ghp-import==0.5.5
+Jinja2==2.10
+Markdown==2.6.11
+MarkupSafe==1.0
+pelican==3.7.1
+pkg-resources==0.0.0
+Pygments==2.2.0
+python-dateutil==2.7.3
+pytz==2018.5
+six==1.11.0
+Unidecode==1.0.22
