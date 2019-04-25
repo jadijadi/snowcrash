@@ -13,14 +13,12 @@
     
 
 <li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>فصل ها</h4></li>
-{% for article in articles %}
-{% if article.category == 'chapters' %}
+{% for article in articles %} 
 <li>
 <a href="{{ SITEURL }}/{{ article.url }}">
     <i class="icon-folder-open icon-large"></i>{{ article.title }}
 </a>
 </li>
-{% endif %}
 {% endfor %}
 
 
