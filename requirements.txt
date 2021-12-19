@@ -2,12 +2,12 @@ blinker==1.4
 docutils==0.14
 feedgenerator==1.9
 ghp-import==0.5.5
-Jinja2==2.10.1
+Jinja2==2.11.3
 Markdown==2.6.11
 MarkupSafe==1.0
 pelican==3.7.1
 pkg-resources==0.0.0
-Pygments==2.2.0
+Pygments==2.7.4
 python-dateutil==2.7.3
 pytz==2018.5
 six==1.11.0
